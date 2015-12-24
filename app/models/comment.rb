@@ -1,3 +1,4 @@
 class Comment < ActiveRecord::Base
-  attr_accessible :busnum, :ctext, :email
+  belongs_to :article
+  attr_accessible :body, :title
 end

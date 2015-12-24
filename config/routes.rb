@@ -5,6 +5,7 @@ Bus::Application.routes.draw do
   get "home/index2"
   get "home/index3"
   get "home/index4"
+  get "home/index5"
   resources :home
   root :to => redirect('/home')
   # The priority is based upon order of creation:

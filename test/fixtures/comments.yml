@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyString
-  busnum: MyString
-  comment: MyString
+  title: MyString
+  body: MyText
+  article: 
 
 two:
-  name: MyString
-  busnum: MyString
-  comment: MyString
+  title: MyString
+  body: MyText
+  article: 
